@@ -6,14 +6,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatTabsModule } from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
+import { LiveListComponent } from './views/live-list/live-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LiveListComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +24,8 @@ import { HomeComponent } from './views/home/home.component';
     AppRoutingModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
