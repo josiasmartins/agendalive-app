@@ -12,6 +12,7 @@ import {MatCardModule} from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { LiveListComponent } from './views/live-list/live-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LiveListComponent } from './views/live-list/live-list.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
     MatToolbarModule,
     MatIconModule,
