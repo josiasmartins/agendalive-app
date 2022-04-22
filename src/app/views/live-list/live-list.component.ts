@@ -1,6 +1,6 @@
+import { Component, OnInit } from '@angular/core';
 import { Live } from './../../shared/model/live.model';
 import { LiveService } from './../../shared/service/live.service';
-import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-live-list',
